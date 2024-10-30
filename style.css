@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400;1,900&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: grey;
+}
+
+.header {
+  display: flex;
+  background-color: white;
+  border-bottom: 1px solid #333;
+  padding: 8px;
+  justify-content: space-between;
+}
+
+.profile-image {
+  width: 48px;              /* Ancho del círculo */
+  height: 48px;             /*Alto del círculo (igual que el ancho) */
+  background-color: blueviolet; /* Color de fondo del círculo */
+  border-radius: 50%;        /* Redondea los bordes al 50%, formando un círculo */
+  box-shadow: inset 2px 2px 4px rgba(0,0,0,0.5);
+  margin: 20px;
+}
+
+.logo {
+  display: flex;
+  color: blueviolet;
+  font-size: 2rem;
+  font-style: italic;
+  font-weight: 900;
+  font-size: 1.4rem;
+}
+
+button {
+  background-color: blueviolet;
+  color: white;
+  border-radius: 8px;
+}
+
+a {
+    padding: 0 20px;
+    text-decoration: none;
+}
+
+ul {
+    display: flex;
+   list-style: none;
+
+}
+#dcha, #izda{
+  display: flex;
+  align-items: center;
+ }
